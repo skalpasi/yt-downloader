@@ -69,7 +69,7 @@ saveEntry.place(x=255, y=36)
 ytdQuality = Label(root,fg="#fff",bg="#383838",text="Select Quality: ")
 ytdQuality.place(x=10, y=70)
 #combobox
-choices = [" Select a quality"," 360p"," 720p"]
+choices = [" Select a quality"," 720p"," 360p"]
 ytdchoices = ttk.Combobox(root,values=choices)
 ytdchoices.place(x=100, y=70)
 ytdchoices.current(0)
